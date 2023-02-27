@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+
+
+/*
+como é uma ID vamos usar o #, essa parte é toda responsavel pelo cabeçalho da pagina
+*/
+#area-cabeçalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo {
+    padding: 10px;
+}
+
+#area-menu {
+    padding: 10px;
+}
+
+#area-principal{
+
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px ;
+
+      /*
+    essa é a resolução utilizada por enquanto */
+}
+
+#area-conteudo{
+    width: 660px;
+    float: left;
+
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+/*criamos uma class para configurr os posts
+*/
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+  
+
+}
+
+.postagem-lateral{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+
+
+}
+.conteudo-lateral{
+    background: grey;
+
+
+}
+ /*agora vou formatar todos os H1, fazendo isso aqui pelo css
+*/
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: black;
+    background: grey;
+    padding: 5px;
+}
+
+/*
+ essa classe branco foi criada para deixar o palavra blog em branco usando o span
+*/
+.branco {
+    color: aliceblue
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    display: block;
+}
+
+/*
+ a parti de agora vou formatar os links para ficarem mais bonitos
+*/
+#area-cabeçalho  a:link, a:visited {
+    /*
+   da para formatar os dois ao mesmo tempo, coloquei o cabeçalho junto para apenas lá, ter essa configuraçãp
+   */
+    color: white;
+    padding: 8px 12px;
+
+}
+
+#area-cabeçalho  a:hover {
+    color: #f7b600;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+  
+
